@@ -1,0 +1,17 @@
+.button {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 1rem;
+  padding: 12px 40px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #4caf4f;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: 10px;
+}

@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import Nav from "./Components/Organisms/Nav";
 
 function App() {
-
   return (
-    <><div className="nav">
-      <p>Hello we will be developing our data-webapp using react.js :) </p>
-    </div>
+    <>
+      <Nav />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
