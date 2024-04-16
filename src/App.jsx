@@ -1,13 +1,14 @@
-import './App.css'
-import BodySection from './components/BodySection/BodySection'
-function App() {
+import './App.css';
+import BodySection from './components/BodySection/BodySection';
+import Nav from "./Components/Organisms/Nav";
 
+function App() {
   return (
-    <><div className="App">
+    <>
+      <Nav />
       <BodySection/>
-    </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
