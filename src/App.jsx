@@ -1,10 +1,10 @@
 import './App.css'
-
+import BodySection from './components/BodySection/BodySection'
 function App() {
 
   return (
     <><div className="nav">
-      <p>Hello we will be developing our data-webapp using react.js :) </p>
+      <BodySection/>
     </div>
     </>
   )

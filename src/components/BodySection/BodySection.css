@@ -1,0 +1,35 @@
+.bodysection{
+    width: auto;
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-background);
+}
+
+.help {
+    width: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.stats{
+    width:30rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.stats__nums{
+    width: 10rem;
+    height: auto;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+.stats__nums, h2, p{
+    margin: 0;
+}
