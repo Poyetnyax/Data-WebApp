@@ -3,7 +3,7 @@ import BodySection from './components/BodySection/BodySection'
 function App() {
 
   return (
-    <><div className="nav">
+    <><div className="App">
       <BodySection/>
     </div>
     </>
