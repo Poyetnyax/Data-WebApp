@@ -1,0 +1,35 @@
+.customers{
+    width: 100%;
+    max-width: 170rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+.image img{
+    width: 15rem;
+}
+.image{
+    width: 15rem;
+    align-items: center;
+    padding: 1.5rem;
+    
+}
+
+.customers__more{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.companies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+
