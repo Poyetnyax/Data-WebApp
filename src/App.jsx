@@ -1,18 +1,12 @@
 import "./App.css";
-import Action from "./Components/Molecules/Action";
-
-import Nav from "./Components/Organisms/Nav";
+import Landing from "./Layouts/Landing";
 
 function App() {
   return (
     <>
       <div>
-        <section className="nav-section">
-          <Nav />
-        </section>
-
-        <section className="action-section">
-          <Action />
+        <section>
+          <Landing />
         </section>
       </div>
     </>
