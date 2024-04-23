@@ -1,0 +1,27 @@
+.nav-section {
+  padding-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  width: 85%;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.action,
+.client,
+.feature {
+  margin-top: 8rem;
+  position: sticky;
+}
+
+.action {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.client {
+  margin-top: 4rem;
+}
+.feature {
+  margin-top: 4rem;
+}
