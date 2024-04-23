@@ -1,23 +1,24 @@
 .customers{
-    width: 100%;
-    max-width: 170rem;
+    max-width: 1360px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
     gap: 3rem;
-    padding: 2rem 0;
+    padding: 4rem;
 }
 .image img{
-    width: 15rem;
+    width: 12rem;
 }
+
 .image{
-    width: 15rem;
+    width: 12rem;
     align-items: center;
-    padding: 1.5rem;
-    
 }
 
 .customers__more{
+    width:auto;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -27,9 +28,12 @@
 .companies{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 2rem;
     padding: 1.5rem 0;
 }
 
-
+.companies img{
+    width:90px;
+    height:50px;
+}
