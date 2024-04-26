@@ -14,19 +14,19 @@ function CommunityUpdates() {
             <div className="reviews">
                 <div className="insights">
                     <img src={WFH} alt="" />
-                    <div className="text">
+                    <div className="insights__text">
                         <p>Insights Hub: Unlocking Data-Driven Success</p>
                     </div>
                 </div>
                 <div className="insights">
                     <img src={pctyping} alt="" />
-                    <div className="text">
+                    <div className="insights__text">
                         <p>Community Chronicles: Stories of Success</p>
                     </div>
                 </div>
                 <div className="insights">
                     <img src={typing} alt="" />
-                    <div className="text">
+                    <div className="insights__text">
                         <p>Navigating Growth: Strategies and Tips from the Community</p>
                     </div>
                 </div>

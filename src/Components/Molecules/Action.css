@@ -1,5 +1,6 @@
 .action-container {
   display: flex;
+  padding-top: 6rem;
   column-gap: 20rem;
 }
 .container-left {

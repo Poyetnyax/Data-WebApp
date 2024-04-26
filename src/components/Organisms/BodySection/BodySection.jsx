@@ -3,7 +3,7 @@ import './BodySection.css'
 function BodySection() {
 
     return (
-      <><div className="bodysection">
+      <div className="bodysection">
         <div className="help">
             <h2>Helping a local</h2>
             <p>We reached here with our hard work and dedication</p>
@@ -26,7 +26,7 @@ function BodySection() {
                 <p>Informed Decision Making Impact</p>
             </div>
         </div>
-      </div></>
+      </div>
     )
   }
   

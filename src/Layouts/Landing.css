@@ -1,27 +1,7 @@
-.nav-section {
-  padding-bottom: 2rem;
-  position: fixed;
-  top: 0;
-  width: 85%;
-  z-index: 100;
-  background-color: #ffffff;
-}
-
-.action,
-.client,
-.feature {
-  margin-top: 8rem;
-  position: sticky;
-}
-
-.action {
-  margin-top: 12rem;
-  margin-bottom: 12rem;
-}
-
-.client {
-  margin-top: 4rem;
-}
-.feature {
-  margin-top: 4rem;
+.Page{
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  gap: 3rem;
 }

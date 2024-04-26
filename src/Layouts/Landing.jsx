@@ -9,30 +9,14 @@ import CommunityUpdates from "../Components/Organisms/CommunityUpdates/Community
 
 function Landing() {
   return (
-    <div>
-      <section className="nav-section">
-        <Nav />
-      </section>
-      <section>
-        <div className="action">
-          <Action />
-        </div>
-        <div className="client">
-          <Client />
-        </div>
-        <div className="feature">
-          <Feature />
-        </div>
-        <div className="bodysection">
-          <BodySection/>
-        </div>
-        <div className="customers">
-          <Customers/>
-        </div>
-        <div className="communityupdates">
-          <CommunityUpdates/>
-        </div>
-      </section>
+    <div className="Page">
+      <Nav />
+      <Action />
+      <Client />
+      <Feature />
+      <BodySection/>
+      <Customers/>
+      <CommunityUpdates/>
     </div>
   );
 }

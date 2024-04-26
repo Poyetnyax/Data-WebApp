@@ -2,6 +2,7 @@
     width: auto;
     display: flex;
     padding: 4rem;
+    margin-top: 2rem;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-background);
@@ -12,10 +13,8 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2rem; 
 }
-
-
 
 .stats{
     width:30rem;
@@ -33,4 +32,9 @@
 
 .stats__nums, h2, p{
     margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+h2{
+    font-family: sans-serif, Arial, Helvetica;
 }
