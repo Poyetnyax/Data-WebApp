@@ -1,12 +1,12 @@
-import Button from "../Atoms/Button";
 import "./Action.css";
-import person from "../../Assets/images/person.png";
-import device from "../../Assets/images/device.png";
-import windows from "../../Assets/images/windows.png";
-import deviceShadow from "../../Assets/images/deviceShadow.png";
-import formula from "../../Assets/images/formula.png";
-import gear from "../../Assets/images/gear.png";
-import personShadow from "../../Assets/images/personShadow.png";
+import Button from "../Atoms/Button/Button";
+import person from "../../assets/images/person.png";
+import device from "../../assets/images/device.png";
+import windows from "../../assets/images/windows.png";
+import deviceShadow from "../../assets/images/deviceShadow.png";
+import formula from "../../assets/images/formula.png";
+import gear from "../../assets/images/gear.png";
+import personShadow from "../../assets/images/personShadow.png";
 
 function Action() {
   return (
