@@ -1,4 +1,4 @@
-import Button from "../Atoms/Button";
+import Button from "../../Atoms/Button/Button";
 import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";

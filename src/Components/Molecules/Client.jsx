@@ -1,15 +1,15 @@
 import "./Client.css";
-import action from "../../Assets/images/action.png";
-import auchan from "../../Assets/images/auchan.png";
-import biedronka from "../../Assets/images/biedronka.png";
-import carrefour from "../../Assets/images/carrefour.png";
-import euro from "../../Assets/images/euro.png";
-import kaufland from "../../Assets/images/kaufland.png";
-import lidl from "../../Assets/images/lidl.png";
-import makro from "../../Assets/images/makro.png";
-import netto from "../../Assets/images/netto.png";
-import stokrotka from "../../Assets/images/stokrotka.png";
-import zabka from "../../Assets/images/zabka.png";
+import action from "../../assets/images/action.png";
+import auchan from "../../assets/images/auchan.png";
+import biedronka from "../../assets/images/biedronka.png";
+import carrefour from "../../assets/images/carrefour.png";
+import euro from "../../assets/images/euro.png";
+import kaufland from "../../assets/images/kaufland.png";
+import lidl from "../../assets/images/lidl.png";
+import makro from "../../assets/images/makro.png";
+import netto from "../../assets/images/netto.png";
+import stokrotka from "../../assets/images/stokrotka.png";
+import zabka from "../../assets/images/zabka.png";
 
 function Client() {
   return (
