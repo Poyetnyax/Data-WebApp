@@ -32,6 +32,9 @@ jobs:
       - name: Check Format
         run: npx prettier --check .
 
+      - name: Run Prettier
+        run: npx prettier --write .
+
       - name: Lint
         id: npm-lint
         run: npm run lint
