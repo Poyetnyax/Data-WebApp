@@ -26,9 +26,11 @@ jobs:
         id: npm-ci
         run: npm ci
 
+      - name: Install Prettier
+        run: npm install --save-dev prettier
+
       - name: Check Format
-        id: npm-format-check
-        run: npm run format:check
+        run: npx prettier --check .
 
       - name: Lint
         id: npm-lint
