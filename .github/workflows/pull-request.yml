@@ -22,7 +22,7 @@ jobs:
         id: setup-node
         uses: actions/setup-node@v4
         with:
-          node-version-file: '20.x'
+          node-version-file: '2.x'
           cache: npm
 
       - name: Install Dependencies
