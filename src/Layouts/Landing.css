@@ -5,3 +5,42 @@
   padding: 0 4rem;
   gap: 3rem;
 }
+
+.nav-section {
+  padding-bottom: 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 85%;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.action,
+.client,
+.feature,
+.bodysection,
+.customers,
+.community {
+  margin-top: 3rem;
+  position: sticky;
+}
+
+.action {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.client {
+  margin-top: 4rem;
+}
+.feature {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.bodysection{
+  margin-top: 4rem;
+}
+
+.community{
+  margin-bottom: 6rem;
+}
