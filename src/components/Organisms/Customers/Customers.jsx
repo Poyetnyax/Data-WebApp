@@ -1,11 +1,11 @@
 import './Customers.css';
-import aldi from "../../../assets/images/aldi.png";
-import zabka from "../../../assets/images/zabka.png";
-import carrefour from "../../../assets/images/carrefour.png";
-import strokrotka from "../../../assets/images/strokrotka.png";
-import action from "../../../assets/images/action.png";
-import auchan from "../../../assets/images/auchan.png";
-import biedronka from "../../../assets/images/biedronka.png";
+import aldi from "../../../Assets/images/aldi.png";
+import zabka from "../../../Assets/images/zabka.png";
+import carrefour from "../../../Assets/images/carrefour.png";
+import strokrotka from "../../../Assets/images/strokrotka.png";
+import action from "../../../Assets/images/action.png";
+import auchan from "../../../Assets/images/auchan.png";
+import biedronka from "../../../Assets/images/biedronka.png";
 
 
 function Customers() { 
