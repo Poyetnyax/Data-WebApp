@@ -1,4 +1,4 @@
-.Page{
+.Page {
   max-width: 1360px;
   display: flex;
   flex-direction: column;
@@ -37,10 +37,10 @@
   margin-top: 4rem;
   margin-bottom: 6rem;
 }
-.bodysection{
+.bodysection {
   margin-top: 4rem;
 }
 
-.community{
+.community {
   margin-bottom: 6rem;
 }

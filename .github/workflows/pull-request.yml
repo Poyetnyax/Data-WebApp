@@ -1,9 +1,9 @@
 name: Continuous Integration
 
 on:
-    pull_request:
-      branches:
-        - '**'
+  pull_request:
+    branches:
+      - "**"
 
 permissions:
   contents: read
@@ -21,7 +21,6 @@ jobs:
       - name: Setup Node.js
         id: setup-node
         uses: actions/setup-node@v4
-        
 
       - name: Install Dependencies
         id: npm-ci
