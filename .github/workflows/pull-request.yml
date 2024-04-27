@@ -1,0 +1,43 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches:
+      - "**"
+
+permissions:
+  contents: read
+
+jobs:
+  test-javascript:
+    name: JavaScript Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        id: setup-node
+        uses: actions/setup-node@v4
+
+      - name: Install Dependencies
+        id: npm-ci
+        run: npm ci
+
+      - name: Install Prettier
+        run: npm install --save-dev prettier
+
+      - name: Run Prettier
+        run: npx prettier --write .
+
+      - name: Lint
+        id: npm-lint
+        run: npm run lint
+
+      - name: Install Test
+        run: npm install --save-dev jest
+
+      - name: Run Test
+        run: npm test

@@ -1,5 +1,5 @@
 import "./Landing.css";
-import Nav from "../Components/Organisms/Nav/Nav"
+import Nav from "../Components/Organisms/Nav/Nav";
 import Action from "../Components/Molecules/Action";
 import Client from "../Components/Molecules/Client";
 import Feature from "../Components/Molecules/Feature";
@@ -10,7 +10,7 @@ import CommunityUpdates from "../Components/Organisms/CommunityUpdates/Community
 function Landing() {
   return (
     <div className="Page">
-     <section className="nav-section">
+      <section className="nav-section">
         <Nav />
       </section>
       <section>
@@ -24,18 +24,15 @@ function Landing() {
           <Feature />
         </div>
         <div className="bodysection">
-          <BodySection/>
+          <BodySection />
         </div>
         <div className="customers">
-          <Customers/>
+          <Customers />
         </div>
         <div className="community">
-          <CommunityUpdates/>
+          <CommunityUpdates />
         </div>
       </section>
-      
-      
-      
     </div>
   );
 }
