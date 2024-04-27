@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "./Card.css";
-import icon1 from "../../assets/images/icon1.png";
+import icon1 from "../../Assets/images/icon1.png";
 
 function Card({ imgSrc, title, text }) {
   return (
