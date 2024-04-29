@@ -1,7 +1,7 @@
 import Card from "./Card";
 import "./Feature.css";
-import icon2 from "../../assets/images/icon2.png";
-import icon3 from "../../assets/images/icon3.png";
+import icon2 from "../../Assets/images/icon2.png";
+import icon3 from "../../Assets/images/icon3.png";
 
 function Feature() {
   return (

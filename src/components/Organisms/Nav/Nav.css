@@ -21,7 +21,8 @@
   column-gap: 4rem;
 }
 
-a {
+.container-right a,
+.container-left a {
   text-decoration: none;
   color: #000000;
 }

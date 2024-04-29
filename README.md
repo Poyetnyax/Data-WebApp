@@ -4,8 +4,8 @@
 
 To install node-modules run the following script:
 
-``npm install``
+`npm install`
 
 To start the webapp locally run:
 
-``npm run dev``
+`npm run dev`

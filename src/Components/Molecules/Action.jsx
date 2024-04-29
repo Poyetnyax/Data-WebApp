@@ -1,27 +1,27 @@
 import "./Action.css";
 import Button from "../Atoms/Button/Button";
-import person from "../../assets/images/person.png";
-import device from "../../assets/images/device.png";
-import windows from "../../assets/images/windows.png";
-import deviceShadow from "../../assets/images/deviceShadow.png";
-import formula from "../../assets/images/formula.png";
-import gear from "../../assets/images/gear.png";
-import personShadow from "../../assets/images/personShadow.png";
+import person from "../../Assets/images/person.png";
+import device from "../../Assets/images/device.png";
+import windows from "../../Assets/images/windows.png";
+import deviceShadow from "../../Assets/images/deviceShadow.png";
+import formula from "../../Assets/images/formula.png";
+import gear from "../../Assets/images/gear.png";
+import personShadow from "../../Assets/images/personShadow.png";
 
 function Action() {
   return (
     <div className="action-container">
       <div className="container-left">
-        <div>
+        <div className="acthead">
           <h1>Unlock Insights</h1>
         </div>
-        <div>
+        <div className="actp">
           <p>
             <strong>Unlock & Chart Success:</strong>
             <br /> Elevate your enterprise with tailored Data Analysis Solutions
           </p>
         </div>
-        <div>
+        <div className="getbutton">
           <Button name="Get Started" />
         </div>
       </div>
