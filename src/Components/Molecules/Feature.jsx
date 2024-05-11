@@ -1,3 +1,4 @@
+import React from "react";
 import Card from "./Card";
 import "./Feature.css";
 import icon2 from "../../Assets/images/icon2.png";
