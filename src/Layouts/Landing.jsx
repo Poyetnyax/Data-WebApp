@@ -17,10 +17,10 @@ function Landing() {
         <div className="action">
           <Action />
         </div>
-        <div className="client">
+        <div id="clients" className="client">
           <Client />
         </div>
-        <div className="feature">
+        <div id="features" className="feature">
           <Feature />
         </div>
         <div className="bodysection">
@@ -29,7 +29,7 @@ function Landing() {
         <div className="customers">
           <Customers />
         </div>
-        <div className="community">
+        <div id="about-us" className="community">
           <CommunityUpdates />
         </div>
       </section>

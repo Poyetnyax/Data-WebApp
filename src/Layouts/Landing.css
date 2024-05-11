@@ -21,7 +21,7 @@
 .bodysection,
 .customers,
 .community {
-  margin-top: 3rem;
+  margin-top: 2rem;
   position: sticky;
 }
 
@@ -31,10 +31,10 @@
 }
 
 .client {
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 .feature {
-  margin-top: 4rem;
+  padding-top: 4rem;
   margin-bottom: 6rem;
 }
 .bodysection {
