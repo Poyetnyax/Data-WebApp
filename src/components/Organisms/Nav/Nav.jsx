@@ -1,4 +1,5 @@
 import Button from "../../Atoms/Button/Button";
+import {Link} from 'react-router-dom';
 import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
