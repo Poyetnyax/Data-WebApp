@@ -7,6 +7,7 @@ import deviceShadow from "../../Assets/images/deviceShadow.png";
 import formula from "../../Assets/images/formula.png";
 import gear from "../../Assets/images/gear.png";
 import personShadow from "../../Assets/images/personShadow.png";
+import { Link } from "react-router-dom";
 
 function Action() {
   return (
@@ -22,7 +23,7 @@ function Action() {
           </p>
         </div>
         <div className="getbutton">
-          <Button name="Get Started" />
+          <Link to="/sign-up"><Button name="Get Started" /></Link>
         </div>
       </div>
       <div className="illustration-container">
