@@ -1,4 +1,5 @@
 import Button from "../../Atoms/Button/Button";
+import {Link} from 'react-router-dom';
 import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
@@ -19,7 +20,7 @@ function Nav() {
           <a href="">Clients</a>
           <a href="">Features</a>
           <a href="">About Us</a>
-          <Button name="Sign Up" />
+          <Link to="/sign-in"><Button name="Sign Up" /></Link>
         </div>
       </nav>
     </>
