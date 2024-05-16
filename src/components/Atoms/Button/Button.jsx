@@ -7,7 +7,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 function Button({ name }) {
   return (
     <button className="button">
-      {name} <FontAwesomeIcon className="icon" icon={faArrowRightLong} />
+      {name} <FontAwesomeIcon className="icon" icon={faArrowRightLong} data-testid="icon"/>
     </button>
   );
 }

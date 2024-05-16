@@ -16,10 +16,10 @@ function Nav() {
           </a>
         </div>
         <div className="container-right">
-          <a href="">Clients</a>
-          <a href="">Features</a>
-          <a href="">About Us</a>
-          <Button name="Sign Up" />
+          <a href="#clients">Clients</a>
+          <a href="#features">Features</a>
+          <a href="#about-us">About Us</a>
+          <Button name="Sign Up" link="sign-up"/>
         </div>
       </nav>
     </>
