@@ -5,16 +5,12 @@ import SignIn from "./Layouts/SignIn";
 
 function App() {
   return (
-    <>
       <div>
-        <section>
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/sign-in' element={<SignIn />} />
         </Routes>
-        </section>
       </div>
-    </>
   );
 }
 
