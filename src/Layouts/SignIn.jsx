@@ -1,4 +1,5 @@
 import "./SignIn.css";
+import Button from "../Components/Atoms/Button/Button";
 import person from "../Assets/images/person.png";
 import device from "../Assets/images/device.png";
 import windows from "../Assets/images/windows.png";
@@ -10,7 +11,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-import Button from "../Components/Atoms/Button/Button";
+
 
 function SignIn() {
     return (
