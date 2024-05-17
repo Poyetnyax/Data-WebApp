@@ -69,7 +69,7 @@ function SignUp () {
             <input className="details" type="text" placeholder=" " required />
           </label>
         </form>
-        <Button name="Sign Up"/>
+        <Link to='/sign-in'><Button name="Sign Up"/></Link>
       </div>
       <div className="illustration-container">
           <div className="illustration-left">

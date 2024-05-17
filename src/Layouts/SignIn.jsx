@@ -10,6 +10,8 @@ import personShadow from "../Assets/images/personShadow.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+
 
 function SignIn() {
     return (
@@ -21,7 +23,11 @@ function SignIn() {
             <h2 className="heading">Sign-in</h2>
             <input className="inputspace" type="text" placeholder="Username" required />
             <input className="inputspace" type="text" placeholder="Password" required />
-            <Button name="Sign In" />
+            <button className="button" onClick={() => window.location.href = 'https://popsoko.github.io/Pylogg/'} >
+             {'Sign In'} <FontAwesomeIcon className="icon" icon={faArrowRightLong} />
+            </button>
+            <p>Are you new? follow the link below</p>
+            <Link to='/sign-up'><Button name='Sign Up'/></Link>
         </div>
         <div className="illustration-container">
           <div className="illustration-left">
