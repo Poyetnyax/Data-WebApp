@@ -1,0 +1,34 @@
+.SignUpPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignUp{
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    padding: 2rem;
+    gap: 1rem;
+    font-Family: 'Arial, sans-serif'
+}
+.form{
+    font-size: 1.1rem;
+}
+
+.details{
+    width: 15rem;
+    align-items: center;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+}
+.choice{
+    width: 15rem;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+}

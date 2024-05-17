@@ -1,0 +1,45 @@
+.SignIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.btn{
+    font-family: sans-serif, Arial, Helvetica;
+  font-size: 1rem;
+  padding: 12px 2rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #171817;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+}
+.heading{
+    font-family: sans-serif, Arial, Helvetica;
+    margin-bottom: 1rem;
+}
+
+.inputspace{
+    align-items: center;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 0.5rem;
+}
+
+.illustration-container {
+    width: 18rem;
+    display: flex;
+  }
+  
+  .illustration-left {
+    display: flex;
+  }
