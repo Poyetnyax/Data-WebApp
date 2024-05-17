@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import Button from "../Components/Atoms/Button/Button";
 
 function SignIn() {
     return (
@@ -24,6 +25,8 @@ function SignIn() {
             <button className="button" onClick={() => window.location.href = 'https://popsoko.github.io/Pylogg/'} >
              {'Sign In'} <FontAwesomeIcon className="icon" icon={faArrowRightLong} />
             </button>
+            <p>Are you new? follow the link below</p>
+            <Link to='/sign-up'><Button name='Sign Up'/></Link>
         </div>
         <div className="illustration-container">
           <div className="illustration-left">
